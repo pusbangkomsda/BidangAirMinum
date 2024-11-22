@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnanbnsnfns10111111111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111111111" font="Open Sans" controllayout="npnxnanbsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pxabnsnfns10111111111" font="Open Sans" controllayout="pxabnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="npxnabnsnfns10111111111" font="Open Sans" controllayout="npxnabnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="npnxnanbnsnfns10111111111" font="Open Sans" controllayout="npnxnanbnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pxabnsnfns10111111110" font="Open Sans" controllayout="pxabnsnfns10111111110" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="npxnanbnsnfns10111111111" font="Open Sans" controllayout="npxnanbnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pnxnanbnsnfns10111111111" font="Open Sans" controllayout="pnxnanbnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+    <layout name="pxnanbnsnfns10111111111" font="Open Sans" controllayout="pxnanbnsnfns10111111111" colorscheme="npxnanbnsnfns10111111111" string_table="npxnanbnsnfns10111111111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="MICROLEARNING BIDANG AIR MINUM" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="true" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111111110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns10111111111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnanbnsnfns10111111111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5776A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x496484" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1F3752" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A6C98" alpha="100" stop="0" />
+                <color rgb="0x243C5C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x294260" alpha="100" stop="0" />
+                <color rgb="0x426288" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x436388" alpha="100" stop="0" />
+                <color rgb="0x294260" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5379A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA5DE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F5A76" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2F465C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5379A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F5A76" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D4258" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D4258" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5479A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4D6E9A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A3C50" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31475E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5479A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31475E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x283C4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6596C9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x47658B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x99B2CC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D4765" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x476A95" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x14304D" alpha="100" stop="0" />
+                <color rgb="0x4C6B96" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x436388" alpha="100" stop="0" />
+                <color rgb="0x2A4360" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C5979" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x294260" alpha="100" stop="0" />
+                <color rgb="0x426288" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x405E82" alpha="100" stop="0" />
+                <color rgb="0x0E2A45" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7698B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x587BA1" alpha="100" stop="0" />
+                <color rgb="0x496184" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x486B94" alpha="100" stop="0" />
+                <color rgb="0x3A5579" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x527CAD" alpha="100" stop="0" />
+                <color rgb="0x527CAD" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x405E81" alpha="100" stop="0" />
+                <color rgb="0x46678C" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1A324A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x47658B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6A98C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x31475E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A45" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4A6C98" alpha="100" stop="0" />
+                <color rgb="0x243C5C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x294260" alpha="100" stop="0" />
+                <color rgb="0x426288" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x436388" alpha="100" stop="0" />
+                <color rgb="0x294260" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x253C52" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1F3752" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x496484" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x34495E" alpha="100" stop="0" />
+                <color rgb="0x142B42" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x47617F" alpha="100" stop="0" />
+                <color rgb="0x47617F" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x374D64" alpha="100" stop="0" />
+                <color rgb="0x142D46" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E2A46" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x57799E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x46678E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4D74A3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x314B68" alpha="100" stop="0" />
+                <color rgb="0x365374" alpha="100" stop="128" />
+                <color rgb="0x314B68" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnanbnsnfns10111111111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6KPPNCJdnDS.5cl9x5LyrIu" displaytext="Petunjuk Penggunaan" expand="false" type="slide" />
+        <slidelink slideid="_player.6KPPNCJdnDS.5oPk8BtbEv1" displaytext="Menu Utama" expand="false" type="slide" />
+        <slidelink slideid="_player.6KPPNCJdnDS" displaytext="Materi Bagian I" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KPPNCJdnDS.5reLZFgNdwv" displaytext="Pengantar" expand="false" type="slide" />
+            <slidelink slideid="_player.6KPPNCJdnDS.5reLZFgNdwv" displaytext="Materi" expand="false" type="slide" />
+            <slidelink slideid="_player.6KPPNCJdnDS.6Cmzdl6vKip" displaytext="Latihan" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6KPPNCJdnDS" displaytext="Materi Bagian II" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KPPNCJdnDS.6p5eur2YMpD" displaytext="Pengantar" expand="false" type="slide" />
+            <slidelink slideid="_player.6KPPNCJdnDS.6p5eur2YMpD" displaytext="Materi" expand="false" type="slide" />
+            <slidelink slideid="_player.6KPPNCJdnDS.6HV8vz7jRpv" displaytext="Latihan" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6KPPNCJdnDS" displaytext="Materi Bagian III" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KPPNCJdnDS.6kaWPCuw6L4" displaytext="Pengantar" expand="false" type="slide" />
+            <slidelink slideid="_player.6KPPNCJdnDS.6kaWPCuw6L4" displaytext="Materi" expand="false" type="slide" />
+            <slidelink slideid="_player.6KPPNCJdnDS.6Bgv6nDrT52" displaytext="Latihan" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6KPPNCJdnDS.5Xa7C3iGoOS" slidebank="false" type="slide"> </slidetext>
+      <slidetext slideid="6KPPNCJdnDS.6Cmzdl6vKip" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar. penjelasan: uji kinerja bertujuan untuk memastikan bahwa semua komponen sistem ipa beroperasi sesuai spesifikasi sebelum melanjutkan ke tahap uji komisioning dan penyusunan laporan. continue continue continue continue continue continue  tahapan pertama dalam proses komisioning instalasi pengolahan air (ipa) adalah uji kinerja. apa tujuan utama dari pelaksanaan uji kinerja tersebut? memastikan laporan komisioning disusun sesuai standar memastikan laporan komisioning disusun sesuai standar memastikan laporan komisioning disusun sesuai standar memastikan laporan komisioning disusun sesuai standar memastikan laporan komisioning disusun sesuai standar memastikan laporan komisioning disusun sesuai standar memverifikasi bahwa seluruh peralatan ipa berfungsi sesuai spesifikasi desain  memverifikasi bahwa seluruh peralatan ipa berfungsi sesuai spesifikasi desain  memverifikasi bahwa seluruh peralatan ipa berfungsi sesuai spesifikasi desain  memverifikasi bahwa seluruh peralatan ipa berfungsi sesuai spesifikasi desain  memverifikasi bahwa seluruh peralatan ipa berfungsi sesuai spesifikasi desain  memverifikasi bahwa seluruh peralatan ipa berfungsi sesuai spesifikasi desain  mengevaluasi hasil pengolahan air dari sudut pandang regulasi pemerintah mengevaluasi hasil pengolahan air dari sudut pandang regulasi pemerintah mengevaluasi hasil pengolahan air dari sudut pandang regulasi pemerintah mengevaluasi hasil pengolahan air dari sudut pandang regulasi pemerintah mengevaluasi hasil pengolahan air dari sudut pandang regulasi pemerintah mengevaluasi hasil pengolahan air dari sudut pandang regulasi pemerintah menentukan jadwal operasional ipa berdasarkan uji coba awal menentukan jadwal operasional ipa berdasarkan uji coba awal menentukan jadwal operasional ipa berdasarkan uji coba awal menentukan jadwal operasional ipa berdasarkan uji coba awal menentukan jadwal operasional ipa berdasarkan uji coba awal menentukan jadwal operasional ipa berdasarkan uji coba awal memastikan tenaga komisioning terlatih untuk operasional ipa memastikan tenaga komisioning terlatih untuk operasional ipa memastikan tenaga komisioning terlatih untuk operasional ipa memastikan tenaga komisioning terlatih untuk operasional ipa memastikan tenaga komisioning terlatih untuk operasional ipa memastikan tenaga komisioning terlatih untuk operasional ipa</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.63OXBWOtzOn" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar. penjelasan: uji komisioning dilakukan oleh tenaga komisioning yang memiliki keahlian dan pelatihan khusus untuk mengevaluasi kesiapan operasional ipa secara menyeluruh. continue continue continue continue continue continue  siapa yang bertanggung jawab untuk melaksanakan uji komisioning dalam ipa? tim pemeliharaan tim pemeliharaan tim pemeliharaan tim pemeliharaan tim pemeliharaan tim pemeliharaan tenaga komisioning yang terlatih tenaga komisioning yang terlatih tenaga komisioning yang terlatih tenaga komisioning yang terlatih tenaga komisioning yang terlatih tenaga komisioning yang terlatih pengguna akhir pengguna akhir pengguna akhir pengguna akhir pengguna akhir pengguna akhir pengembang proyek pengembang proyek pengembang proyek pengembang proyek pengembang proyek pengembang proyek pemerintah daerah pemerintah daerah pemerintah daerah pemerintah daerah pemerintah daerah pemerintah daerah</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.5vQoot6rQtI" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar. penjelasan: laporan komisioning merangkum hasil dari semua uji yang dilakukan serta memberikan rekomendasi untuk perbaikan agar sistem ipa dapat beroperasi secara optimal. continue continue continue continue continue continue  apa yang harus disertakan dalam laporan komisioning setelah selesai melakukan uji kinerja dan uji komisioning? biaya pembangunan ipa biaya pembangunan ipa biaya pembangunan ipa biaya pembangunan ipa biaya pembangunan ipa biaya pembangunan ipa data pengguna air minum data pengguna air minum data pengguna air minum data pengguna air minum data pengguna air minum data pengguna air minum hasil uji dan rekomendasi perbaikan hasil uji dan rekomendasi perbaikan hasil uji dan rekomendasi perbaikan hasil uji dan rekomendasi perbaikan hasil uji dan rekomendasi perbaikan hasil uji dan rekomendasi perbaikan rencana pemasaran rencana pemasaran rencana pemasaran rencana pemasaran rencana pemasaran rencana pemasaran kebijakan pemerintah terkait air minum kebijakan pemerintah terkait air minum kebijakan pemerintah terkait air minum kebijakan pemerintah terkait air minum kebijakan pemerintah terkait air minum kebijakan pemerintah terkait air minum</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.6HV8vz7jRpv" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar. penjelasan: unit produksi ipa bertugas mengolah air mentah melalui berbagai proses sehingga menghasilkan air bersih yang aman untuk dikonsumsi. continue continue continue continue continue continue  apa fungsi utama dari unit produksi dalam instalasi pengolahan air (ipa)? menyimpan air untuk kebutuhan sehari-hari menyimpan air untuk kebutuhan sehari-hari menyimpan air untuk kebutuhan sehari-hari menyimpan air untuk kebutuhan sehari-hari menyimpan air untuk kebutuhan sehari-hari menyimpan air untuk kebutuhan sehari-hari mengolah air mentah menjadi air bersih yang siap digunakan mengolah air mentah menjadi air bersih yang siap digunakan mengolah air mentah menjadi air bersih yang siap digunakan mengolah air mentah menjadi air bersih yang siap digunakan mengolah air mentah menjadi air bersih yang siap digunakan mengolah air mentah menjadi air bersih yang siap digunakan mengatur distribusi air ke pelanggan mengatur distribusi air ke pelanggan mengatur distribusi air ke pelanggan mengatur distribusi air ke pelanggan mengatur distribusi air ke pelanggan mengatur distribusi air ke pelanggan memasarkan air minum kepada masyarakat memasarkan air minum kepada masyarakat memasarkan air minum kepada masyarakat memasarkan air minum kepada masyarakat memasarkan air minum kepada masyarakat memasarkan air minum kepada masyarakat mengendalikan kualitas air di reservoir mengendalikan kualitas air di reservoir mengendalikan kualitas air di reservoir mengendalikan kualitas air di reservoir mengendalikan kualitas air di reservoir mengendalikan kualitas air di reservoir</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.68KYiSM55j5" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar, penjelasan: tujuan utama spam adalah untuk memastikan masyarakat mendapatkan akses terhadap air bersih dan aman untuk dikonsumsi, sehingga mendukung kesehatan dan kesejahteraan. continue continue continue continue continue continue  apa tujuan utama dari sistem penyediaan air minum (spam)? meningkatkan pendapatan daerah dari penjualan air meningkatkan pendapatan daerah dari penjualan air meningkatkan pendapatan daerah dari penjualan air meningkatkan pendapatan daerah dari penjualan air meningkatkan pendapatan daerah dari penjualan air meningkatkan pendapatan daerah dari penjualan air menyediakan air bersih dan aman untuk masyarakat menyediakan air bersih dan aman untuk masyarakat menyediakan air bersih dan aman untuk masyarakat menyediakan air bersih dan aman untuk masyarakat menyediakan air bersih dan aman untuk masyarakat menyediakan air bersih dan aman untuk masyarakat mengurangi biaya operasional pengolahan air mengurangi biaya operasional pengolahan air mengurangi biaya operasional pengolahan air mengurangi biaya operasional pengolahan air mengurangi biaya operasional pengolahan air mengurangi biaya operasional pengolahan air meningkatkan kesadaran masyarakat tentang pentingnya air meningkatkan kesadaran masyarakat tentang pentingnya air meningkatkan kesadaran masyarakat tentang pentingnya air meningkatkan kesadaran masyarakat tentang pentingnya air meningkatkan kesadaran masyarakat tentang pentingnya air meningkatkan kesadaran masyarakat tentang pentingnya air menyimpan air untuk kebutuhan darurat menyimpan air untuk kebutuhan darurat menyimpan air untuk kebutuhan darurat menyimpan air untuk kebutuhan darurat menyimpan air untuk kebutuhan darurat menyimpan air untuk kebutuhan darurat</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.5WLzJVTOQIC" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar, penjelasan: prinsip kualitas dalam spam memastikan bahwa air yang disuplai kepada masyarakat aman dan memenuhi standar kesehatan yang ditetapkan. continue continue continue continue continue continue  apa yang dimaksud dengan prinsip kualitas dalam 4k pada sistem penyediaan air minum (spam)? menyediakan jumlah air yang cukup untuk setiap pelanggan menyediakan jumlah air yang cukup untuk setiap pelanggan menyediakan jumlah air yang cukup untuk setiap pelanggan menyediakan jumlah air yang cukup untuk setiap pelanggan menyediakan jumlah air yang cukup untuk setiap pelanggan menyediakan jumlah air yang cukup untuk setiap pelanggan menjamin air yang disuplai memenuhi standar kesehatan menjamin air yang disuplai memenuhi standar kesehatan menjamin air yang disuplai memenuhi standar kesehatan menjamin air yang disuplai memenuhi standar kesehatan menjamin air yang disuplai memenuhi standar kesehatan menjamin air yang disuplai memenuhi standar kesehatan memastikan distribusi air berlangsung terus-menerus memastikan distribusi air berlangsung terus-menerus memastikan distribusi air berlangsung terus-menerus memastikan distribusi air berlangsung terus-menerus memastikan distribusi air berlangsung terus-menerus memastikan distribusi air berlangsung terus-menerus menawarkan harga air yang terjangkau bagi masyarakat menawarkan harga air yang terjangkau bagi masyarakat menawarkan harga air yang terjangkau bagi masyarakat menawarkan harga air yang terjangkau bagi masyarakat menawarkan harga air yang terjangkau bagi masyarakat menawarkan harga air yang terjangkau bagi masyarakat membangun infrastruktur yang efisien untuk pengolahan air membangun infrastruktur yang efisien untuk pengolahan air membangun infrastruktur yang efisien untuk pengolahan air membangun infrastruktur yang efisien untuk pengolahan air membangun infrastruktur yang efisien untuk pengolahan air membangun infrastruktur yang efisien untuk pengolahan air</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.6Bgv6nDrT52" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar. penjelasan: bak pra-sedimentasi berfungsi untuk menghilangkan partikel besar sebelum masuk ke tahap pengolahan selanjutnya, sehingga mengurangi beban pada unit-unit berikutnya. continue continue continue continue continue continue  apa tujuan utama dari bak pra-sedimentasi dalam proses pengolahan air? menghilangkan mikroorganisme berbahaya menghilangkan mikroorganisme berbahaya menghilangkan mikroorganisme berbahaya menghilangkan mikroorganisme berbahaya menghilangkan mikroorganisme berbahaya menghilangkan mikroorganisme berbahaya mengikat partikel-partikel kecil menggunakan bahan kimia mengikat partikel-partikel kecil menggunakan bahan kimia mengikat partikel-partikel kecil menggunakan bahan kimia mengikat partikel-partikel kecil menggunakan bahan kimia mengikat partikel-partikel kecil menggunakan bahan kimia mengikat partikel-partikel kecil menggunakan bahan kimia menghilangkan partikel besar dan padatan yang tersuspensi menghilangkan partikel besar dan padatan yang tersuspensi menghilangkan partikel besar dan padatan yang tersuspensi menghilangkan partikel besar dan padatan yang tersuspensi menghilangkan partikel besar dan padatan yang tersuspensi menghilangkan partikel besar dan padatan yang tersuspensi menyaring air dari partikel halus menyaring air dari partikel halus menyaring air dari partikel halus menyaring air dari partikel halus menyaring air dari partikel halus menyaring air dari partikel halus meningkatkan rasa dan aroma air meningkatkan rasa dan aroma air meningkatkan rasa dan aroma air meningkatkan rasa dan aroma air meningkatkan rasa dan aroma air meningkatkan rasa dan aroma air</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.6607vmSZAXM" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar. penjelasan: dalam bak koagulasi, bahan kimia ditambahkan untuk membantu mengikat partikel kecil, sehingga membentuk flok yang lebih besar untuk memudahkan proses penghilangan pada tahap berikutnya. continue continue continue continue continue continue  apa peran bak koagulasi dalam proses pengolahan air? memisahkan air dari flok memisahkan air dari flok memisahkan air dari flok memisahkan air dari flok memisahkan air dari flok memisahkan air dari flok menghancurkan partikel besar menghancurkan partikel besar menghancurkan partikel besar menghancurkan partikel besar menghancurkan partikel besar menghancurkan partikel besar mengikat partikel kecil menjadi flok yang lebih besar mengikat partikel kecil menjadi flok yang lebih besar mengikat partikel kecil menjadi flok yang lebih besar mengikat partikel kecil menjadi flok yang lebih besar mengikat partikel kecil menjadi flok yang lebih besar mengikat partikel kecil menjadi flok yang lebih besar menghilangkan bakteri dan virus menghilangkan bakteri dan virus menghilangkan bakteri dan virus menghilangkan bakteri dan virus menghilangkan bakteri dan virus menghilangkan bakteri dan virus menyaring partikel halus dari air menyaring partikel halus dari air menyaring partikel halus dari air menyaring partikel halus dari air menyaring partikel halus dari air menyaring partikel halus dari air</slidetext>
+      <slidetext slideid="6KPPNCJdnDS.6LRZEY1SkJp" slidebank="false" type="slide">incorrect jawaban anda salah, silahkan ulangi kembali! try again try again try again try again try again try again incorrect jawaban anda salah, silahkan ulangi kembali! continue continue continue continue continue continue correct jawaban anda benar. penjelasan: proses desinfeksi bertujuan untuk memastikan bahwa air bebas dari mikroorganisme patogen yang dapat membahayakan kesehatan manusia, sehingga air yang dihasilkan aman untuk dikonsumsi. continue continue continue continue continue continue  apa tujuan utama dari proses desinfeksi dalam instalasi pengolahan air? menghilangkan zat padat yang tersuspensi menghilangkan zat padat yang tersuspensi menghilangkan zat padat yang tersuspensi menghilangkan zat padat yang tersuspensi menghilangkan zat padat yang tersuspensi menghilangkan zat padat yang tersuspensi meningkatkan efisiensi filtrasi meningkatkan efisiensi filtrasi meningkatkan efisiensi filtrasi meningkatkan efisiensi filtrasi meningkatkan efisiensi filtrasi meningkatkan efisiensi filtrasi membunuh mikroorganisme berbahaya dalam air membunuh mikroorganisme berbahaya dalam air membunuh mikroorganisme berbahaya dalam air membunuh mikroorganisme berbahaya dalam air membunuh mikroorganisme berbahaya dalam air membunuh mikroorganisme berbahaya dalam air menstabilkan ph air menstabilkan ph air menstabilkan ph air menstabilkan ph air menstabilkan ph air menstabilkan ph air mengurangi bau dan rasa air mengurangi bau dan rasa air mengurangi bau dan rasa air mengurangi bau dan rasa air mengurangi bau dan rasa air mengurangi bau dan rasa air</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#FFFFFF'&gt;Knowledge Management&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://drive.google.com/file/d/1vGIGesM9D89XZtf5Gj8Bn7I9Sobwlsqp/view?usp=drive_link" image="story_content/url.png" title="Modul Materi Bidang Air Minum" />
+      <resource url="https://www.youtube.com/playlist?list=PLvO4-ro73OvYokVKnRbg9U9vrYlRTNUlW" image="story_content/url.png" title="Playlist Video Komisioning IPA" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="Desinfeksi">Proses pembunuhan atau penghilangan mikroorganisme patogen di dalam air untuk memastikan bahwa air aman untuk diminum. Proses ini biasanya dilakukan dengan menggunakan klorin atau sinar UV.
+</term>
+      <term title="Filtrasi">Proses penyaringan untuk menghilangkan partikel halus yang tersisa setelah sedimentasi, biasanya menggunakan media pasir, kerikil, atau karbon aktif.
+</term>
+      <term title="Flokulasi">Proses pembentukan flok (gumpalan partikel) yang lebih besar dari hasil koagulasi, sehingga partikel lebih mudah diendapkan dalam proses selanjutnya.
+</term>
+      <term title="IPA (Instalasi Pengolahan Air)">Fasilitas atau bangunan yang digunakan untuk mengolah air baku menjadi air minum melalui serangkaian proses fisik, kimia, dan biologis.
+</term>
+      <term title="Koagulasi">Proses penambahan bahan kimia ke dalam air untuk mengumpulkan partikel-partikel kecil menjadi lebih besar agar lebih mudah diendapkan.
+</term>
+      <term title="pH">Ukuran tingkat keasaman atau kebasaan suatu larutan. Skala pH berkisar dari 0 hingga 14, di mana pH 7 dianggap netral, di bawah 7 asam, dan di atas 7 basa. pH air minum ideal biasanya berada dalam rentang 6,5-8,5.
+</term>
+      <term title="Pra Klorinasi">Proses penambahan klorin pada air baku sebelum memasuki tahap pengolahan lebih lanjut, dengan tujuan mengurangi pertumbuhan mikroorganisme selama proses pengolahan.</term>
+      <term title="Reservoir">Tempat penampungan air sementara, yang digunakan untuk menyimpan air baku sebelum diproses atau menyimpan air minum yang telah diolah sebelum didistribusikan.
+</term>
+      <term title="Sedimentasi">Proses pengendapan partikel-partikel besar atau flok di dasar wadah agar dapat dipisahkan dari air.
+</term>
+      <term title="Sludge Drying Bed">Fasilitas yang digunakan untuk mengeringkan lumpur hasil pengolahan air atau limbah, agar kadar airnya berkurang sebelum dibuang atau dimanfaatkan lebih lanjut.
+</term>
+      <term title="SPAM">Infrastruktur yang meliputi seluruh unit yang diperlukan untuk penyediaan air minum, mulai dari pengambilan air baku, pengolahan, hingga distribusi ke pengguna.
+</term>
+      <term title="Sumber Air Baku">Sumber dari mana air diambil untuk diproses menjadi air minum, seperti sungai, danau, sumur, atau mata air.
+</term>
+      <term title="Tenaga Komisioning">Tenaga ahli atau profesional yang bertanggung jawab melakukan proses komisioning untuk memastikan bahwa sistem atau unit berfungsi dengan baik sebelum digunakan secara resmi.
+</term>
+      <term title="Transmisi">Proses atau jalur pengaliran air dari unit air baku ke unit pengolahan dan dari unit pengolahan ke jaringan distribusi.
+</term>
+      <term title="Uji Kinerja">Proses penilaian terhadap kinerja sistem atau komponen untuk memastikan mereka memenuhi standar operasional dan kualitas yang telah ditetapkan.
+</term>
+      <term title="Uji Komisioning IPA">Proses pengujian pada Instalasi Pengolahan Air (IPA) untuk memastikan bahwa semua unit proses bekerja sesuai standar dan siap untuk dioperasikan.
+</term>
+      <term title="Uji Komisioning SPAM">Proses pengujian dan verifikasi seluruh sistem dan komponen dalam Sistem Penyediaan Air Minum (SPAM) untuk memastikan kinerjanya sesuai dengan spesifikasi sebelum mulai beroperasi penuh.
+</term>
+      <term title="Unit Air Baku">Bagian dari sistem SPAM yang bertanggung jawab untuk mengambil dan mengalirkan air dari sumber air baku ke unit produksi untuk pengolahan lebih lanjut.
+</term>
+      <term title="Unit Distribusi">Bagian dari SPAM yang menyalurkan air minum yang telah diolah ke pengguna akhir melalui jaringan pipa atau sarana distribusi lainnya.
+</term>
+      <term title="Unit Operasi">Bagian atau tahapan di dalam IPA yang meliputi proses fisik atau mekanik dalam pengolahan air, seperti filtrasi dan sedimentasi.
+</term>
+      <term title="Unit Pelayanan">Area atau wilayah tertentu yang menjadi cakupan layanan SPAM, di mana air minum didistribusikan kepada pelanggan.
+</term>
+      <term title="Unit Produksi">Bagian dari SPAM yang berfungsi mengolah air baku menjadi air minum yang memenuhi standar kualitas sebelum disalurkan ke jaringan distribusi.
+</term>
+      <term title="Unit Proses">Komponen-komponen dalam IPA yang menjalankan proses-proses tertentu untuk mengolah air baku menjadi air minum, seperti koagulasi, flokulasi, dan desinfeksi.
+</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
